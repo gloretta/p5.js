@@ -1,0 +1,221 @@
+function setup() {
+  createCanvas(400, 400);
+  background(99, 154, 242);
+  
+  
+  
+  
+  //Backdrop
+  
+  //ground
+  fill(40, 102, 15);
+  rect(0,300,400,100);
+  
+  //darkest mountain
+  fill(80);
+  triangle(240,50,120,300,370,300);
+  
+  //medium dark mountain
+  fill(100);
+  triangle(100,100,0,300,200,300);
+  
+  //cloud
+  noStroke();
+  fill(240);
+  ellipse(150, 50, 65, 25)
+  ellipse(165, 40, 50, 35);
+  ellipse(180, 47, 55, 30);
+  
+    //cloud
+  fill(240);
+  ellipse(220, 110, 65, 25)
+  ellipse(235, 100, 50, 35);
+  ellipse(250, 107, 55, 30);  
+  
+  //lightest mountain
+  stroke(0);
+  fill(150);
+  triangle(310,150,210,300,400,300);
+  //Sun
+  fill(252, 207, 43);
+  ellipse(50,50,50,50);
+  
+  
+  //Foreground -> trees
+  fill(23, 82, 10);
+  triangle(0,300,20,300,10,270);
+  triangle(20,300,40,300,30,270);
+  triangle(40,300,60,300,50,270);
+  triangle(60,300,80,300,70,270);
+  triangle(80,300,100,300,90,270);
+  triangle(100,300,120,300,110,270);
+  triangle(120,300,140,300,130,275);
+  triangle(140,300,160,300,150,277);
+  triangle(160,300,180,300,170,272);
+  triangle(180,300,200,300,190,273);
+  triangle(200,300,220,300,210,270);
+  triangle(220,300,240,300,230,275);
+  triangle(240,300,260,300,250,274);
+  triangle(260,300,280,300,270,276);
+  triangle(280,300,300,300,290,273);
+  triangle(300,300,320,300,310,278);
+  triangle(320,300,340,300,330,272);
+  triangle(340,300,360,300,350,279);
+  triangle(360,300,380,300,370,271);
+  triangle(380,300,400,300,390,274);
+
+  
+  
+  
+  
+  //Person
+  
+  
+  noStroke();
+  angleMode(DEGREES);
+  //back hair
+  fill(64, 43, 13)
+  rect(139,110,120,175,150);
+  
+  //body
+  fill(0);
+  rect(134,245,135,155,50,50,0,0);
+  
+  //neck
+  fill(227, 178, 136);
+  rect(180,215,40,50, 100);
+  
+  //head
+  fill(227, 178, 136);
+  stroke(209, 162, 121);
+  ellipse(200,180,100,120);
+  noStroke();
+  
+  //face
+  fill(240);
+  
+  //left eye
+  ellipse(180,170,25,20);
+  
+  //right eye
+  ellipse(220,170,25,20);
+  
+  //left color
+  fill(121, 136, 163);
+  ellipse(180,170,17);
+  
+  //left pupil
+  fill(0);
+  ellipse(180,170,10,10);
+  
+  //right color
+  fill(121, 136, 163);
+  ellipse(220,170,17);
+  
+  //right pupil
+  fill(0);
+  ellipse(220,170,10,10);
+  
+  //mouth
+  stroke(199, 47, 44);
+  fill(240);
+  arc(200,210,30,30,0,180);
+  noStroke();
+  
+
+  
+  //left shine
+  fill(240);
+  ellipse(183,168,4,4);
+  
+  //right shine
+  fill(240);
+  ellipse(224,168,4,4);
+  
+  //nose
+  stroke(50);
+  fill(227, 178, 136);
+  arc(200,195,10,5,270,90);
+  
+  //hair left
+  fill(64, 43, 13);
+  stroke(64, 43, 13);
+  arc(165,135,90,40,300,140);
+  
+  //hair right
+  fill(64, 43, 13);
+  arc(225,125,70,40,30,212);
+   
+  
+  //top lip
+  stroke(199, 47, 44);
+  line(215, 210, 185, 210);
+  
+  //left eyebrow
+  stroke(64, 43, 13);
+  noFill();
+  arc(220,160, 30, 15, 200, 350)
+  
+  //right eyebrow
+  stroke(64, 43, 13);
+  noFill();
+  arc(180,160, 30, 15, 190, 340);
+  
+  
+  
+  //Trailer
+  
+  
+  //trailer hitch
+  fill(0);
+  noStroke();
+  rect(70,358,18,3)// horizontal piece
+  rect(88,347,3,20)//vertical piece
+  stroke(0);
+  
+  //trailer base
+  fill(240);
+  rect(20,320,60,40,40);
+  //bottom base
+  fill(227, 141, 2);
+  rect(20,340,60,20, 0, 0, 10, 10);
+  
+  //wheel
+  fill(0);
+  ellipse(37,360,15,15);
+  
+  //trailer door
+  fill(240);
+  rect(50,330,16,30,5,5,0,0);
+  
+  
+  //trailer door window
+  fill(0);
+  noStroke();
+  rect(54,333,8,12,5,5,0,0);
+  
+  //trailer door handle
+  fill(0);
+  ellipse(55,350,2,2)
+  
+  
+  
+  //bottom wing
+  fill(181, 56, 56);
+  quad(320, 47, 300, 47, 340, 17, 360, 17);
+  
+  //airplane
+  fill(201, 42, 42);
+  rect(305,20,60,15, 5)
+  
+  //top wing
+  fill(201, 64, 64);
+  quad(320, 40, 300, 40, 340, 10, 360, 10);
+  
+  
+
+  
+
+  
+  
+}
